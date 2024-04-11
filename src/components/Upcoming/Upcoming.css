@@ -1,0 +1,16 @@
+.date{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.stars {
+    display: inline-block;
+  }
+  
+  .stars::before {
+    content: "★★★★★";
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, gold var(--vote-average, 0%), gray var(--vote-average, 0%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+  }

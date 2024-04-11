@@ -1,0 +1,81 @@
+
+
+.card-group {
+    display: inline-block;
+    margin: 0 5px;
+    margin-bottom: 0;
+    width: 400px; /* Increase width */
+   padding-top: 50px;
+    
+}
+.pdetails{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.pdetails h3{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-title,
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+.poster {
+    max-width: 100%;
+    max-height: 100%;
+}
+.card-title {
+    white-space: normal;
+   
+}
+.btn{
+   font-size: 50px; 
+   margin-top: 0;
+   position: absolute;
+    top: 50%;
+    color: white;
+    text-shadow: rgb(183, 128, 26);
+    transform: translateY(-50%);
+}
+
+.l{
+left: 0;
+}
+.r{
+    right: 0;
+}
+/* .container {
+    position: relative;
+} */
+
+.card-group-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.bpic{
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./bac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url('./bac.jpg'); */
+}
+.card-img-top {
+    width: 100%; /* Make the image width 100% */
+}
+
+  
+.card h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .card:hover h5 {
+    white-space: initial;
+    overflow: initial;
+    text-overflow: initial;
+  }

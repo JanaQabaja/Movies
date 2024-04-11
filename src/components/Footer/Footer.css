@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+  }
+  
+  .contact {
+    flex: 1;
+    align-items: left;
+   
+  }
+  
+  .copy {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 100px;
+  }
+  
+  .contact li {
+    direction: none;
+    text-align: left;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  .contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+  }
+ 
+  .contact h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    margin-bottom: 27px;
+    
+    
+  }
+  .jana{
+    flex: 1;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-top: 100px;
+   
+  }
+  .divider {
+    width:1px;
+    height:200px;
+    background-color: #cccccc80;
+    width: 1px;
+
+  }
+  

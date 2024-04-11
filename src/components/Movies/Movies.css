@@ -1,0 +1,54 @@
+/* Movies.css */
+
+
+  
+  .card:hover{
+    background-color: rgba(148, 52, 108, 0.433);
+    color: white;
+  }
+
+  .card {
+    transition: background-color 0.3s ease;
+  }
+  
+
+  
+  .card h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .card:hover h3 {
+    white-space: initial;
+    overflow: initial;
+    text-overflow: initial;
+  }
+  .lists{
+   margin-right: 9px;
+color:rgb(102, 108, 113);
+
+  }
+  
+  .icon-container {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically */} 
+   
+ 
+  .lists:hover{
+  
+  color: rgb(48, 39, 56);
+ 
+   }
+   .multip{
+    text-align: center;
+   }
+   .pagination-container {
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .pagination-container .active {
+   background-color: rgba(62, 51, 217, 0.459);
+  }
