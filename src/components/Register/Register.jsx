@@ -1,7 +1,6 @@
 import axios from 'axios'
 import { useFormik } from 'formik'
 import React, { useState } from 'react'
-// import { regSchema } from '../schemas/register.jsx'
 import { useNavigate } from 'react-router-dom'
 import Header from '../Header/Header.jsx'
 import * as Yup from 'yup';
